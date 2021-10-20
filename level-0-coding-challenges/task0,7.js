@@ -4,7 +4,7 @@ function celciusToFahrenheit(tempinCel){
 }
 
 function farhenheitToCelcius(tempinFarh){
-    var cel = (tempinFarh - 32) * 1.8
+    var cel = (tempinFarh - 32) / 1.8
     return cel
 }
 
