@@ -6,6 +6,6 @@ function printVowels(str){
             match = x.toLowerCase() +","+ match //if the letter is a vowel the it is added into the match var and passed as a string.
         }   
     }
-    console.log("Vowels:", match)   
+    console.log("Vowels:", match.slice(0,match.length-1))   
 }
 printVowels("Entanglement")
