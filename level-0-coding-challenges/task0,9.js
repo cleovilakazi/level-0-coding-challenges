@@ -6,7 +6,7 @@ function printVowels(str){
             match = x.toLowerCase() +","+ match //if the letter is a vowel the it is added into the match var and passed as a string.
         }   
     }
-    match = new Set(match)
+    match = new Set(match) // a set does not accept duplicates thefore i created one so that all my vowels can have only one representative.
     match = [...match].join("")
     console.log("Vowels:", match))   
 }
